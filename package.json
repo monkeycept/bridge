@@ -1,0 +1,9 @@
+{
+      "name": "timer",
+      "scripts": {
+            "dev": "vite"
+      },
+      "devDependencies": {
+            "vite": "^6.0.7"
+      }
+}

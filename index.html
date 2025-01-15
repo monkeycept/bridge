@@ -1,21 +1,17 @@
-&lt;!DOCTYPE html&gt;
-    &lt;html lang="en"&gt;
-    &lt;head&gt;
-      &lt;meta charset="UTF-8"&gt;
-      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-      &lt;title&gt;Countdown Timer&lt;/title&gt;
-      &lt;link rel="stylesheet" href="style.css"&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-      &lt;div class="countdown-container"&gt;
-        &lt;h1&gt;Countdown Timer&lt;/h1&gt;
-        &lt;div id="timer"&gt;
-          &lt;span id="days"&gt;00&lt;/span&gt; :
-          &lt;span id="hours"&gt;00&lt;/span&gt; :
-          &lt;span id="minutes"&gt;00&lt;/span&gt; :
-          &lt;span id="seconds"&gt;00&lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;script src="script.js"&gt;&lt;/script&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Simple Timer</title>
+      <link rel="stylesheet" href="/src/index.css">
+    </head>
+    <body>
+      <div class="timer-container">
+        <h1 id="timer">00:00</h1>
+        <button id="startBtn">Start</button>
+        <button id="stopBtn" disabled>Stop</button>
+      </div>
+      <script type="module" src="/src/main.js"></script>
+    </body>
+    </html>
